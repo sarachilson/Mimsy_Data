@@ -1539,7 +1539,7 @@
  "realword_filter": {
   "date": "2026-11-19",
   "bank_items": 300000,
-  "removed": 15831,
+  "removed": 15830,
   "removed_pct": 5.28,
   "by_source": {
    "bible": 89,
@@ -1564,6 +1564,7 @@
     "url": "https://github.com/smc/mlmorph",
     "licence": "MIT",
     "tool": "SFST (fst-infl)",
+    "compounds_excluded": true,
     "rule": "accepted when a reading has one lexical stem with its endings, optionally followed by clitics (conjunction, postposition, copula); compound readings do not count",
     "coverage_of_reference_words": {
      "top_10000": 0.662,

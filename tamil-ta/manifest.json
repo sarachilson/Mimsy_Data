@@ -1011,5 +1011,33 @@
    "date": "2026-10-11",
    "what": "removed 3538 bank items that occur as a form (any count or capitalisation) in the Leipzig list tam_newscrawl_2011_1M"
   }
- ]
+ ],
+ "realword_filter": {
+  "date": "2026-11-19",
+  "bank_items": 300000,
+  "by_source": {
+   "analyser": 3437
+  },
+  "sources": {
+   "analyser": {
+    "name": "ThamizhiMorph",
+    "author": "Kengatharaiyer Sarveswaran",
+    "url": "https://github.com/sarves/thamizhi-morph",
+    "licence": "Apache-2.0",
+    "tool": "foma (flookup)",
+    "rule": "accepted when one of the lexicon models (noun, verb, adjective, adverb, particle, pronoun) gives a reading; the guesser models are not used",
+    "coverage_of_reference_words": {
+     "top_10000": 0.34,
+     "random_sample": 0.112
+    },
+    "bank_items_with_any_reading": 3437,
+    "bank_items_accepted": 3437,
+    "new": 3437
+   }
+  },
+  "extra_bible_forms": 0,
+  "removed": 3437,
+  "removed_pct": 1.15,
+  "rule": "a morphological analyser adds the items it recognises as a real stem with endings; a morphological analyser adds the items it recognises as a real stem with endings"
+ }
 }
