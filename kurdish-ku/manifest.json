@@ -1913,17 +1913,21 @@
  "realword_filter": {
   "date": "2026-11-19",
   "bank_items": 120000,
-  "removed": 412,
-  "removed_pct": 0.34,
+  "removed": 10359,
+  "removed_pct": 8.63,
   "by_source": {
+   "hunspell": 10205,
    "bible": 412
   },
   "extra_bible_forms": 10603,
   "sources": {
-   "hunspell_skipped": {
+   "hunspell": {
     "dictionary": "libreoffice/ckb/dictionaries/ckb",
+    "licence": "see the collection's licence file",
     "coverage_of_reference_words": 0.403,
-    "reason": "accepts fewer than 50% of the language's reference words"
+    "coverage_of_frequent_words": 0.672,
+    "bank_items_accepted": 10205,
+    "compounding": "off"
    },
    "bible": {
     "texts": [

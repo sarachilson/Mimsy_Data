@@ -728,7 +728,8 @@
    "hunspell_skipped": {
     "dictionary": "libreoffice/pa_IN/pa_IN",
     "coverage_of_reference_words": 0.015,
-    "reason": "accepts fewer than 50% of the language's reference words"
+    "coverage_of_frequent_words": 0.112,
+    "reason": "accepts fewer than 50% of a sample of the language's reference words and fewer than 20% of the 5,000 most frequent"
    },
    "bible": {
     "texts": [

@@ -1540,18 +1540,22 @@
  "realword_filter": {
   "date": "2026-11-19",
   "bank_items": 300000,
-  "removed": 272,
-  "removed_pct": 0.09,
+  "removed": 1127,
+  "removed_pct": 0.38,
   "by_source": {
-   "unimorph": 5,
-   "bible": 267
+   "hunspell": 878,
+   "bible": 267,
+   "unimorph": 5
   },
   "extra_bible_forms": 23689,
   "sources": {
-   "hunspell_skipped": {
+   "hunspell": {
     "dictionary": "libreoffice/te_IN/te_IN",
+    "licence": "see README_te_IN.txt: GNU Hunspell Telugu  Word List Package adaptation      Copyright � 2010 adaptation to Hunspell, Arjuna Rao Chavala  (arjunaraoc at googlemail dot com)     Copyr",
     "coverage_of_reference_words": 0.13,
-    "reason": "accepts fewer than 50% of the language's reference words"
+    "coverage_of_frequent_words": 0.488,
+    "bank_items_accepted": 878,
+    "compounding": "off"
    },
    "unimorph": {
     "repository": "https://github.com/unimorph/tel",

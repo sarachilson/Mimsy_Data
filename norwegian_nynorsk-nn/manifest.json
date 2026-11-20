@@ -3399,6 +3399,7 @@
     "dictionary": "wooorm/nn/index",
     "licence": "GPL-2.0",
     "coverage_of_reference_words": 0.696,
+    "coverage_of_frequent_words": 0.86,
     "bank_items_accepted": 5608,
     "compounding": "off"
    },

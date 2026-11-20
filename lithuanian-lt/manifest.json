@@ -1467,6 +1467,7 @@
     "dictionary": "wooorm/lt/index",
     "licence": "BSD-3-Clause",
     "coverage_of_reference_words": 0.913,
+    "coverage_of_frequent_words": 0.947,
     "bank_items_accepted": 14347,
     "compounding": "off"
    },

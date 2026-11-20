@@ -1718,6 +1718,12 @@
   },
   "extra_bible_forms": 0,
   "sources": {
+   "hunspell_skipped": {
+    "dictionary": "fastspell/uz_UZ",
+    "coverage_of_reference_words": 0.0,
+    "coverage_of_frequent_words": 0.0,
+    "reason": "accepts fewer than 50% of a sample of the language's reference words and fewer than 20% of the 5,000 most frequent"
+   },
    "unimorph": {
     "repository": "https://github.com/unimorph/uzb",
     "licence": "CC BY-SA 3.0",

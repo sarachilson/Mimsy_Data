@@ -1412,6 +1412,7 @@
     "dictionary": "libreoffice/sa_IN/sa_IN",
     "licence": "see the collection's licence file",
     "coverage_of_reference_words": 0.791,
+    "coverage_of_frequent_words": 0.998,
     "bank_items_accepted": 5841,
     "compounding": "off"
    },

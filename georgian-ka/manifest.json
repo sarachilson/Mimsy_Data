@@ -3035,6 +3035,7 @@
     "dictionary": "wooorm/ka/index",
     "licence": "MIT",
     "coverage_of_reference_words": 0.555,
+    "coverage_of_frequent_words": 0.727,
     "bank_items_accepted": 3611,
     "compounding": "off"
    },

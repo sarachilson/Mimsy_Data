@@ -1546,14 +1546,23 @@
  "realword_filter": {
   "date": "2026-11-19",
   "bank_items": 300000,
-  "removed": 93,
-  "removed_pct": 0.03,
+  "removed": 6407,
+  "removed_pct": 2.14,
   "by_source": {
-   "unimorph": 3,
-   "bible": 90
+   "hunspell": 6364,
+   "bible": 90,
+   "unimorph": 3
   },
   "extra_bible_forms": 3236,
   "sources": {
+   "hunspell": {
+    "dictionary": "libreoffice/be_BY/be-official",
+    "licence": "see README_be_BY.txt: Belarusian Spellchecker Dictionary for official orthography 2008  Dictionary based on Belarusian Grammar Database (https://bnkorpus.info/grammar.html) by Aleś B",
+    "coverage_of_reference_words": 0.755,
+    "coverage_of_frequent_words": 0.829,
+    "bank_items_accepted": 6364,
+    "compounding": "off"
+   },
    "unimorph": {
     "repository": "https://github.com/unimorph/bel",
     "licence": "CC BY-SA 3.0",

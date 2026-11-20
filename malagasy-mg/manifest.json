@@ -916,18 +916,22 @@
  "realword_filter": {
   "date": "2026-11-19",
   "bank_items": 300000,
-  "removed": 158,
-  "removed_pct": 0.05,
+  "removed": 230,
+  "removed_pct": 0.08,
   "by_source": {
-   "unimorph": 44,
-   "bible": 115
+   "hunspell": 75,
+   "bible": 115,
+   "unimorph": 44
   },
   "extra_bible_forms": 1220,
   "sources": {
-   "hunspell_skipped": {
+   "hunspell": {
     "dictionary": "elastic/mg_MG/mg_MG",
+    "licence": "see README_mg_MG.txt: 1. Version  This is version 0.03 of myspell-mg.  2. Copyright  Myspell dictionary for Malagasy Copyright 2004 Rado Ramarotafika <rado@linuxmg.org>              ",
     "coverage_of_reference_words": 0.199,
-    "reason": "accepts fewer than 50% of the language's reference words"
+    "coverage_of_frequent_words": 0.754,
+    "bank_items_accepted": 75,
+    "compounding": "off"
    },
    "unimorph": {
     "repository": "https://github.com/unimorph/mlg",

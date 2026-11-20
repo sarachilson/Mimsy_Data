@@ -10423,5 +10423,26 @@
   "schwa_rule": false,
   "final_virama": false,
   "syllabary": true
+ },
+ "realword_filter": {
+  "date": "2026-11-19",
+  "bank_items": 272292,
+  "removed": 1503,
+  "removed_pct": 0.55,
+  "by_source": {
+   "hunspell": 1503
+  },
+  "extra_bible_forms": 0,
+  "sources": {
+   "hunspell": {
+    "dictionary": "fastspell/ti_ER",
+    "licence": "see ti_ER.license: This is tigrigna dictionary for open office. It is produced by newGXP crawler distributed under GNU GPL license. Author: B. Gebremchael - http://www.cs.ru.nl/~b",
+    "coverage_of_reference_words": 0.279,
+    "coverage_of_frequent_words": 0.959,
+    "bank_items_accepted": 1503,
+    "compounding": "off"
+   }
+  },
+  "rule": "a bank item is dropped if a Hunspell dictionary (affixes on, compounding off, lower-case or capitalised) accepts it, if it is a UniMorph lemma or form, or if it occurs (in lower case, in cased scripts) in a Bible translation"
  }
 }

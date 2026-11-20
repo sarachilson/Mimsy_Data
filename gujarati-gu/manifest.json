@@ -1198,18 +1198,22 @@
  "realword_filter": {
   "date": "2026-11-19",
   "bank_items": 300000,
-  "removed": 256,
-  "removed_pct": 0.09,
+  "removed": 2605,
+  "removed_pct": 0.87,
   "by_source": {
-   "unimorph": 113,
-   "bible": 143
+   "hunspell": 2381,
+   "bible": 143,
+   "unimorph": 113
   },
   "extra_bible_forms": 5267,
   "sources": {
-   "hunspell_skipped": {
+   "hunspell": {
     "dictionary": "libreoffice/gu_IN/gu_IN",
+    "licence": "see README_gu_IN.txt: Gujarati Dictionary for OpenOffice.org  Maintained By: Kartik Mistry <kartik dot mistry at gmail dot com>  Original Word List By: Utkarsh Project volunteers <su",
     "coverage_of_reference_words": 0.232,
-    "reason": "accepts fewer than 50% of the language's reference words"
+    "coverage_of_frequent_words": 0.777,
+    "bank_items_accepted": 2381,
+    "compounding": "off"
    },
    "unimorph": {
     "repository": "https://github.com/unimorph/guj",

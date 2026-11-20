@@ -1462,17 +1462,21 @@
  "realword_filter": {
   "date": "2026-11-19",
   "bank_items": 300000,
-  "removed": 139,
-  "removed_pct": 0.05,
+  "removed": 5927,
+  "removed_pct": 1.98,
   "by_source": {
+   "hunspell": 5815,
    "bible": 139
   },
   "extra_bible_forms": 4953,
   "sources": {
-   "hunspell_skipped": {
+   "hunspell": {
     "dictionary": "wooorm/ne/index",
+    "licence": "LGPL-2.1",
     "coverage_of_reference_words": 0.43,
-    "reason": "accepts fewer than 50% of the language's reference words"
+    "coverage_of_frequent_words": 0.75,
+    "bank_items_accepted": 5815,
+    "compounding": "off"
    },
    "bible": {
     "texts": [

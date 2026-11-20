@@ -662,17 +662,21 @@
  "realword_filter": {
   "date": "2026-11-19",
   "bank_items": 132942,
-  "removed": 6,
-  "removed_pct": 0.0,
+  "removed": 1286,
+  "removed_pct": 0.97,
   "by_source": {
+   "hunspell": 1280,
    "bible": 6
   },
   "extra_bible_forms": 41,
   "sources": {
-   "hunspell_skipped": {
+   "hunspell": {
     "dictionary": "elastic/mi_NZ/mi",
+    "licence": "see the collection's licence file",
     "coverage_of_reference_words": 0.376,
-    "reason": "accepts fewer than 50% of the language's reference words"
+    "coverage_of_frequent_words": 0.651,
+    "bank_items_accepted": 1280,
+    "compounding": "off"
    },
    "bible": {
     "texts": [

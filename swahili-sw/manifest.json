@@ -2056,17 +2056,21 @@
  "realword_filter": {
   "date": "2026-11-19",
   "bank_items": 300000,
-  "removed": 4,
-  "removed_pct": 0.0,
+  "removed": 2404,
+  "removed_pct": 0.8,
   "by_source": {
+   "hunspell": 2404,
    "bible": 4
   },
   "extra_bible_forms": 577,
   "sources": {
-   "hunspell_skipped": {
+   "hunspell": {
     "dictionary": "libreoffice/sw_TZ/sw_TZ",
+    "licence": "see README_sw_TZ.txt: README Swahili Myspell Dictionary Release 1.1 2005-08-17  1. Intro   Myspell Swahili Dictionary - Compiled by Alberto Escudero-Pascual aep@it46.se http://www.it",
     "coverage_of_reference_words": 0.236,
-    "reason": "accepts fewer than 50% of the language's reference words"
+    "coverage_of_frequent_words": 0.768,
+    "bank_items_accepted": 2404,
+    "compounding": "off"
    },
    "bible": {
     "texts": [

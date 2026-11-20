@@ -1356,6 +1356,7 @@
     "dictionary": "wooorm/tk/index",
     "licence": "Apache-2.0",
     "coverage_of_reference_words": 0.792,
+    "coverage_of_frequent_words": 0.965,
     "bank_items_accepted": 22667,
     "compounding": "off"
    },

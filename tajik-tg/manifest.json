@@ -1867,17 +1867,21 @@
  "realword_filter": {
   "date": "2026-11-19",
   "bank_items": 300000,
-  "removed": 4,
-  "removed_pct": 0.0,
+  "removed": 4286,
+  "removed_pct": 1.43,
   "by_source": {
+   "hunspell": 4284,
    "bible": 4
   },
   "extra_bible_forms": 178,
   "sources": {
-   "hunspell_skipped": {
+   "hunspell": {
     "dictionary": "elastic/tg/tg",
+    "licence": "see README.txt: Tajik Hunspell Dictionary.  Tajik Hunspell Dictionary is organized on the basis of Apache License Version 2.0, January 2004 http://www.apache.org/licenses/  Taj",
     "coverage_of_reference_words": 0.445,
-    "reason": "accepts fewer than 50% of the language's reference words"
+    "coverage_of_frequent_words": 0.776,
+    "bank_items_accepted": 4284,
+    "compounding": "off"
    },
    "unimorph": {
     "repository": "https://github.com/unimorph/tgk",

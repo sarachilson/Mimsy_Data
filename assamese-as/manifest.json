@@ -1197,18 +1197,22 @@
  "realword_filter": {
   "date": "2026-11-19",
   "bank_items": 300000,
-  "removed": 849,
-  "removed_pct": 0.28,
+  "removed": 1555,
+  "removed_pct": 0.52,
   "by_source": {
+   "hunspell": 735,
    "unimorph": 716,
    "bible": 141
   },
   "extra_bible_forms": 4593,
   "sources": {
-   "hunspell_skipped": {
+   "hunspell": {
     "dictionary": "libreoffice/as_IN/as_IN",
+    "licence": "see README_as_IN.txt: Lachit - an Assamese Spell Checker by Bitopan Das, Mridul Kumar Sharmah  It is released under the banner of Bhaxa Xahitya Xonmiloni, Axom and under the GNU Gene",
     "coverage_of_reference_words": 0.257,
-    "reason": "accepts fewer than 50% of the language's reference words"
+    "coverage_of_frequent_words": 0.848,
+    "bank_items_accepted": 735,
+    "compounding": "off"
    },
    "unimorph": {
     "repository": "https://github.com/unimorph/asm",
