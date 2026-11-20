@@ -1399,12 +1399,14 @@
  "realword_filter": {
   "date": "2026-11-19",
   "bank_items": 300000,
-  "removed": 5841,
-  "removed_pct": 1.95,
+  "removed": 6116,
+  "removed_pct": 2.04,
   "by_source": {
-   "hunspell": 5841
+   "hunspell": 5841,
+   "bible": 31,
+   "unimorph": 358
   },
-  "extra_bible_forms": 0,
+  "extra_bible_forms": 2690,
   "sources": {
    "hunspell": {
     "dictionary": "libreoffice/sa_IN/sa_IN",
@@ -1412,6 +1414,99 @@
     "coverage_of_reference_words": 0.791,
     "bank_items_accepted": 5841,
     "compounding": "off"
+   },
+   "unimorph": {
+    "repository": "https://github.com/unimorph/san",
+    "licence": "CC BY-SA 3.0",
+    "forms": 17566,
+    "bank_items_accepted": 358
+   },
+   "bible": {
+    "texts": [
+     {
+      "file": "ebible/corpus/san-sanasm.txt",
+      "licence": "by-sa 4.0 SanskritBible.in"
+     },
+     {
+      "file": "ebible/corpus/san-sanben.txt",
+      "licence": "by-sa 4.0 SanskritBible.in"
+     },
+     {
+      "file": "ebible/corpus/san-sanbur.txt",
+      "licence": "by-sa 4.0 SanskritBible.in"
+     },
+     {
+      "file": "ebible/corpus/san-sandev.txt",
+      "licence": "by-sa 4.0 SanskritBible.in"
+     },
+     {
+      "file": "ebible/corpus/san-sanguj.txt",
+      "licence": "by-sa 4.0 SanskritBible.in"
+     },
+     {
+      "file": "ebible/corpus/san-sanhk.txt",
+      "licence": "by-sa 4.0 SanskritBible.in"
+     },
+     {
+      "file": "ebible/corpus/san-sanias.txt",
+      "licence": "by-sa 4.0 SanskritBible.in"
+     },
+     {
+      "file": "ebible/corpus/san-saniso.txt",
+      "licence": "by-sa 4.0 SanskritBible.in"
+     },
+     {
+      "file": "ebible/corpus/san-sanitr.txt",
+      "licence": "by-sa 4.0 SanskritBible.in"
+     },
+     {
+      "file": "ebible/corpus/san-sankhm.txt",
+      "licence": "by-sa 4.0 SanskritBible.in"
+     },
+     {
+      "file": "ebible/corpus/san-sanmal.txt",
+      "licence": "by-sa 4.0 SanskritBible.in"
+     },
+     {
+      "file": "ebible/corpus/san-sanori.txt",
+      "licence": "by-sa 4.0 SanskritBible.in"
+     },
+     {
+      "file": "ebible/corpus/san-sanpun.txt",
+      "licence": "by-sa 4.0 SanskritBible.in"
+     },
+     {
+      "file": "ebible/corpus/san-sansin.txt",
+      "licence": "by-sa 4.0 SanskritBible.in"
+     },
+     {
+      "file": "ebible/corpus/san-santam.txt",
+      "licence": "by-sa 4.0 SanskritBible.in"
+     },
+     {
+      "file": "ebible/corpus/san-santel.txt",
+      "licence": "by-sa 4.0 SanskritBible.in"
+     },
+     {
+      "file": "ebible/corpus/san-santha.txt",
+      "licence": "by-sa 4.0 SanskritBible.in"
+     },
+     {
+      "file": "ebible/corpus/san-santib.txt",
+      "licence": "by-sa 4.0 SanskritBible.in"
+     },
+     {
+      "file": "ebible/corpus/san-sanurd.txt",
+      "licence": "by-sa 4.0 SanskritBible.in"
+     },
+     {
+      "file": "ebible/corpus/san-sanvel.txt",
+      "licence": "by-sa 4.0 SanskritBible.in"
+     }
+    ],
+    "word_types": 8410,
+    "new_forms_not_in_lists": 2690,
+    "bank_items_accepted": 31
    }
   },
   "rule": "a bank item is dropped if a Hunspell dictionary (affixes on, compounding off, lower-case or capitalised) accepts it, if it is a UniMorph lemma or form, or if it occurs (in lower case, in cased scripts) in a Bible translation"

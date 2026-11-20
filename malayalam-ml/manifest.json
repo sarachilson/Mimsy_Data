@@ -1539,24 +1539,36 @@
  "realword_filter": {
   "date": "2026-11-19",
   "bank_items": 300000,
-  "removed": 15830,
-  "removed_pct": 5.28,
+  "removed": 15904,
+  "removed_pct": 5.3,
   "by_source": {
-   "bible": 89,
+   "bible": 247,
    "analyser": 15783
   },
-  "extra_bible_forms": 10850,
+  "extra_bible_forms": 54309,
   "sources": {
    "bible": {
     "texts": [
+     {
+      "file": "ebible/corpus/mal-mal.txt",
+      "licence": "by-sa 4.0 Bridge Communication Systems"
+     },
+     {
+      "file": "ebible/corpus/mal-mal2015.txt",
+      "licence": "by-sa 4.0 The Free Bible Foundation"
+     },
+     {
+      "file": "ebible/corpus/mal-malc.txt",
+      "licence": "by-sa 4.0 Biblica, Inc."
+     },
      {
       "file": "bible-corpus/bibles/Malayalam.xml",
       "licence": "CC0 (corpus); translation public domain or freely distributable, see metadata.csv"
      }
     ],
-    "word_types": 21446,
-    "new_forms_not_in_lists": 10850,
-    "bank_items_accepted": 89
+    "word_types": 98306,
+    "new_forms_not_in_lists": 54309,
+    "bank_items_accepted": 247
    },
    "analyser": {
     "name": "mlmorph",
@@ -1572,7 +1584,7 @@
     },
     "bank_items_with_any_reading": 51814,
     "bank_items_accepted": 15783,
-    "new": 15741
+    "new": 15657
    }
   },
   "rule": "a bank item is dropped if a Hunspell dictionary (affixes on, compounding off, lower-case or capitalised) accepts it, if it is a UniMorph lemma or form, or if it occurs (in lower case, in cased scripts) in a Bible translation; a morphological analyser adds the items it accepts as one stem with endings"

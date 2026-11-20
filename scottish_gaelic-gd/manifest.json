@@ -1806,10 +1806,11 @@
  "realword_filter": {
   "date": "2026-11-19",
   "bank_items": 155286,
-  "removed": 4164,
+  "removed": 4166,
   "removed_pct": 2.68,
   "by_source": {
    "hunspell": 4155,
+   "unimorph": 12,
    "bible": 14
   },
   "extra_bible_forms": 83,
@@ -1820,6 +1821,12 @@
     "coverage_of_reference_words": 0.545,
     "bank_items_accepted": 4155,
     "compounding": "off"
+   },
+   "unimorph": {
+    "repository": "https://github.com/unimorph/gla",
+    "licence": "CC BY-SA 3.0",
+    "forms": 278,
+    "bank_items_accepted": 12
    },
    "bible": {
     "texts": [

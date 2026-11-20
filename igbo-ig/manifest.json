@@ -1502,5 +1502,29 @@
  "uncased_names": null,
  "run_together": null,
  "diacritic_twins": null,
- "rules": {}
+ "rules": {},
+ "realword_filter": {
+  "date": "2026-11-19",
+  "bank_items": 123324,
+  "removed": 226,
+  "removed_pct": 0.18,
+  "by_source": {
+   "bible": 226
+  },
+  "extra_bible_forms": 1663,
+  "sources": {
+   "bible": {
+    "texts": [
+     {
+      "file": "ebible/corpus/ibo-ibo.txt",
+      "licence": "by-sa 4.0 Biblica, Inc."
+     }
+    ],
+    "word_types": 6115,
+    "new_forms_not_in_lists": 1663,
+    "bank_items_accepted": 226
+   }
+  },
+  "rule": "a bank item is dropped if a Hunspell dictionary (affixes on, compounding off, lower-case or capitalised) accepts it, if it is a UniMorph lemma or form, or if it occurs (in lower case, in cased scripts) in a Bible translation"
+ }
 }

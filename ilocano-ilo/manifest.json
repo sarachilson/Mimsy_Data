@@ -1884,5 +1884,29 @@
  "uncased_names": null,
  "run_together": null,
  "diacritic_twins": null,
- "rules": {}
+ "rules": {},
+ "realword_filter": {
+  "date": "2026-11-19",
+  "bank_items": 300000,
+  "removed": 75,
+  "removed_pct": 0.03,
+  "by_source": {
+   "bible": 75
+  },
+  "extra_bible_forms": 3806,
+  "sources": {
+   "bible": {
+    "texts": [
+     {
+      "file": "ebible/corpus/ilo-iloulb.txt",
+      "licence": "by-sa 4.0 Door43 World Missions Community"
+     }
+    ],
+    "word_types": 15724,
+    "new_forms_not_in_lists": 3806,
+    "bank_items_accepted": 75
+   }
+  },
+  "rule": "a bank item is dropped if a Hunspell dictionary (affixes on, compounding off, lower-case or capitalised) accepts it, if it is a UniMorph lemma or form, or if it occurs (in lower case, in cased scripts) in a Bible translation"
+ }
 }
